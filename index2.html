@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="text">hello this is cfi student</h1> -->
+    <!-- <p class = "ptext"> hello i am parahgraph tag</p>
+    <p class="ptext"> hello im second paragraph tag</p> -->
+
+    <!-- <p> p1 </p>
+    <p> p2 </p>
+    <p> p3 </p> -->
+
+    <!--query selector-->
+
+    <!-- <p class="myfont"> p1</p>
+    <p class="myfont"> p2</p>
+    <h1 class='h1tag'>h1</h1>
+    <p class="text">p3</p> -->
+
+    <!--traversing elements-->
+    <!-- <ul>
+        <li> one </li>
+        <li id="list">two</li>
+        <li>there</li>
+    </ul> -->
+
+<!-- inner HTML-->
+ <!-- <p id="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi totam dolores nesciunt necessitatibus explicabo officia quidem itaque deserunt! Sed ab quos molestias fugit eaque. Laudantium eos dicta accusamus ea quasi. -->
+
+    <!---->
+    <h1>hello</h1>
+
+
+ </p>
+    <script>
+        // let h1tag= document.getElementById("text");
+        // console.log(h1tag);
+        // let ptag= document.getElementsByClassName("ptext")
+        // console.log(ptag[0],ptag[1])
+
+        // let allPtags= document.getElementsByTagName("p");
+        // console.log(allPtags[0],allPtags[1],allPtags[2]);
+
+       // <!--query selector-->
+        // let allmyFonts= document.querySelectorAll("p.myfont");
+        // console.log(allmyFonts[0],allmyFonts[1])
+
+
+      //  <!--traversing elements-->
+// let list = document.getElementById("list"); 
+// console.log(list); 
+// let parentTag = list.parentElement; 
+// console.log(parentTag);
+
+// let text = document.getElementById("text"); 
+// console.log(text); 
+
+// text.innerHTML= "<h1> hello </h1>";
+// console.log(text);
+
+navigator.geolocation.getCurrentPosition(
+    map =>{
+        const lat= map.coords.latitude; 
+        const long= map.coords.longitude; 
+        console.log(`https://www.google.com/maps?q=${lat},${long}`);
+    },
+    error=>{
+        console.log(error)
+    }
+)
+
+
+    </script>
+</body>
+</html>
