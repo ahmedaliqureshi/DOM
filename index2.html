@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* #btn{
+            background-color: blue;
+            color: white;
+            width: 500px;
+            height: 300px;
+            font-size: 20px;
+        } */
+        .mybtn{
+            background-color: orange;
+            color: aqua;
+            font-size: 22px;
+
+        }
+    </style>
 </head>
 <body>
     <!-- <h1 id="text">hello this is cfi student</h1> -->
@@ -31,11 +46,31 @@
 <!-- inner HTML-->
  <!-- <p id="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi totam dolores nesciunt necessitatibus explicabo officia quidem itaque deserunt! Sed ab quos molestias fugit eaque. Laudantium eos dicta accusamus ea quasi. -->
 
-    <!---->
-    <h1>hello</h1>
+    <!--create element and append-->
+    <!-- <div id="hello">
+        <p>hello p</p>
+    </div> -->
 
+    <!--remove element-->
+     <!-- <ul id="fruits">
+        <li>mango</li>
+        <li>apple</li>
+        <li>banana</li>
+     </ul> -->
 
- </p>
+     <!-- set attribute -->
+      <!-- <button id="btn">submit</button> -->
+
+      <!-- style method -->
+       <!-- <button id="btn">submit</button> -->
+
+       <!-- get computed style method -->
+        <!-- <button id="btn">submit</button> -->
+
+        <!--  -->
+        <button id="btn">submit</button>
+
+ 
     <script>
         // let h1tag= document.getElementById("text");
         // console.log(h1tag);
@@ -62,16 +97,58 @@
 // text.innerHTML= "<h1> hello </h1>";
 // console.log(text);
 
-navigator.geolocation.getCurrentPosition(
-    map =>{
-        const lat= map.coords.latitude; 
-        const long= map.coords.longitude; 
-        console.log(`https://www.google.com/maps?q=${lat},${long}`);
-    },
-    error=>{
-        console.log(error)
-    }
-)
+// navigator.geolocation.getCurrentPosition(
+//     map =>{
+//         const lat= map.coords.latitude; 
+//         const long= map.coords.longitude; 
+//         console.log(`https://www.google.com/maps?q=${lat},${long}`);
+//     },
+//     error=>{
+//         console.log(error)
+//     }
+// )
+
+// let div= document.getElementById("hello")
+// console.log(div); 
+// let heading = document.createElement("hello"); 
+// let text="hello";
+// heading.append(text); 
+// div.append(heading)
+
+// let ul= document.getElementById("fruits"); 
+// console.log(ul); 
+// let li= ul.firstElementChild.nextElementSibling; 
+// console.log(li)
+// ul.removeChild(li)
+
+// let btn=document.getElementById("btn"); 
+// btn.setAttribute("class","hello"); 
+// btn.setAttribute("style","background-color:grey")
+// let total=btn.setAttribute("style");
+// console.log(total);
+
+// let btn=document.getElementById("btn");
+// btn.style.backgroundColor="red"; 
+// btn.style.color="blue";
+
+// btn.setAttribute("style")
+// btn.setAttribute("style","background-color:red")
+
+// btn.style.cssText="background-color:red"
+
+let btn= document.getElementById("btn"); 
+btn.className="mybtn cfi"; 
+// btn.className="cfi"
+console.log(btn.classList)
+btn.classList.replace("mybtn","hibtn"); 
+console.log(btn.classList)
+
+
+
+
+
+
+
 
 
     </script>
