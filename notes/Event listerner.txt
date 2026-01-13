@@ -1,0 +1,7 @@
+Event:- 
+
+when a user interacts with the elements of the user
+
+exampels of DOM:-
+
+1) mouse list

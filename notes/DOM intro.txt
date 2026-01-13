@@ -1,0 +1,25 @@
+DOM:- 
+
+1) it is a tree like structure creted by the broweser from you're 
+HTML 
+
+2) it allwos JS to read, modify, add , delte, change to HTML 
+and CSS. 
+
+HTML= structure
+CSS= style 
+DOM= bridge between HTML and JS, it adds functionality to website
+
+3) IT is a an application programming interface (API) for manupulating HTML document
+
+4) when a web page gets leads the broweser creates a DOM tree structure for it which is  also known as DOM tree. 
+
+5) In it tree, the document is an root node of it. 
+
+6) oepn you're broweser and open console of it and using F12 or inspect 
+and type console.log()
+
+DOM methods:- 
+
+1) getElementById()
+

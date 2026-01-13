@@ -1,0 +1,67 @@
+Event listernser:- 
+
+they are those lines of code which wait till a certain action 
+occured with in the web, without them the website is statice. 
+
+Types of even listerners:- 
+
+1) Mouse event listern:- 
+
+they are those listeners which track the movement of mouse, click, hover, and 
+release button. 
+
+syntax:- 
+
+element.addEventListener("click", function () {
+  console.log("Element clicked");
+});
+
+element.addEventListener("mouseover", function () {
+  console.log("Mouse entered");
+});
+
+
+element.addEventListener("mouseout", function () {
+  console.log("Mouse left");
+});
+
+
+element.addEventListener("mousemove", function () {
+  console.log("Mouse moving");
+});
+------------------------------------------------------
+------------------------------------------------------
+2) Navigator event listerner:- 
+
+they are those listeners which are used in browser enviroment
+they listen to the changes in browser state. 
+
+
+syntax:-
+
+window.addEventListener("online", function () {
+  console.log("Internet connection restored");
+});
+
+window.addEventListener("offline", function () {
+  console.log("Internet connection lost");
+});
+--------------------------------------------------------
+--------------------------------------------------------
+3) page load event listeners:- 
+
+they are those listeners which arae used in when webpage is finished loading, and runs 
+when the page runs. 
+
+suntax:- 
+
+window.addEventListener("load", function () {
+  console.log("Page fully loaded");
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("HTML loaded");
+});
+
+
+
